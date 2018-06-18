@@ -18,9 +18,9 @@
 
     <main id="maincontent">
         <section id="map-container">
-            <div id="map"></div>
+            <div id="map" role="application"></div>
         </section>
-        <section>
+        <section class="options-container">
             <div class="filter-options">
                 <h2>Filter Results</h2>
                 <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
@@ -30,17 +30,19 @@
                     <option value="all">All Cuisines</option>
                 </select>
             </div>
+        </section>
+        <section class="restaurant-list-container">
             <ul id="restaurants-list"></ul>
         </section>
     </main>
 
     <footer id="footer">
-        Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+        Copyright (c) 2018 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
     </footer>
 
     <script src="js/dbhelper.js"></script>
     <script src="js/main.js"></script>
     <!-- Google Maps -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDt_MPOaWNAG0N14SpXDlbnOc-c_AMcz0w&libraries=places&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDt_MPOaWNAG0N14SpXDlbnOc-c_AMcz0w&libraries=places&callback=initMap"></script>
 </body>
 </html>
