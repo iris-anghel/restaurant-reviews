@@ -388,6 +388,20 @@ nav h1 a {
     text-transform: uppercase;
 }
 
+/* skip google map */
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background: #252831;
+	color: #fff;
+	padding: 10px;
+	z-index: 999;
+}
+.skip-link:focus {
+	top: 0;
+}
+
 
 
 @media screen and (max-width: 450px) {
