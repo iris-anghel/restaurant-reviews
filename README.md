@@ -15,18 +15,18 @@ Covert a static design into a responsive one, add accessibility for screen reade
 ### Getting started
 
 * Download or clone the repository
-* Instal http-server
-* Change port number  `in js/dbhelper.js`
+* Instal `http-server`
+* Change port number in `js/dbhelper.js`
 * Visit http://localhost:8080
 
 * Alternatively, use Python to run the server
 
 In the terminal, check the version of Python you have: `python -V`. 
-* Python 2.x *
+* Python 2.x
 
 `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.)
 
-* Python 3.x *
+* Python 3.x
 
 `python -m http.server 8000`
 
