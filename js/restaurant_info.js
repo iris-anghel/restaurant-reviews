@@ -135,6 +135,7 @@ createReviewHTML = (review) => {
     const name = document.createElement('p');
     name.classList.add('reviewer-name');
     name.innerHTML = review.name;
+    name.setAttribute('tabindex', '0');
     li.appendChild(name);
 
     const date = document.createElement('p');
