@@ -215,7 +215,6 @@ nav h1 a {
     letter-spacing: 0;
     line-height: 1.3;
     margin: 20px 0 10px;
-/*    ?? margin deasupra titlu*/
     text-transform: uppercase;
 }
 
@@ -397,6 +396,7 @@ nav h1 a {
 	padding: 10px;
 	z-index: 999;
 }
+
 .skip-link:focus {
 	top: 0;
 }
@@ -420,7 +420,6 @@ nav h1 a {
         margin-top: 10px;
     }
 
-/*    restaurant review - same as max-width 750 */
     #breadcrumb {
         width: 100%;
     }
@@ -461,7 +460,6 @@ nav h1 a {
     }
 
 }
-
 
 @media screen and (min-width: 451px) and (max-width: 750px) {
     #breadcrumb {

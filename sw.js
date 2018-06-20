@@ -1,5 +1,4 @@
 // sw help from https://css-tricks.com/serviceworker-for-offline/
-// and the video youtube
 
 // files that will be cached using the install event
 const cacheName = 'app-v1';

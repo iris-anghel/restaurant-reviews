@@ -1,4 +1,4 @@
-// register sw also here - slack colleagues recommendation
+// also register sw here - slack colleagues recommendation
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js', { scope: './' })
         .then(() => {
@@ -100,7 +100,7 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
 
         hours.appendChild(row);
     }
-}           // add  A11Y here
+}
 
 /**
  * Create all reviews HTML and add them to the webpage.
@@ -148,7 +148,6 @@ createReviewHTML = (review) => {
     li.appendChild(rating);
 
     const comments = document.createElement('p');
-    //  not sure i need to style this
     comments.classList.add('review-comments');
     comments.innerHTML = review.comments;
     li.appendChild(comments);
